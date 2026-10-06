@@ -6,17 +6,28 @@
 	<style>
 		body{
 			margin: 0;
+			background-color: beige;
+			
 		}
 		wrapper{
 			width: 1000px;
 			display: block;
 			margin: auto;
+			box-shadow: 0 0 20px black;
+			
 		}
 		h1{
 			display: inline;
+			color: white;
+			text-shadow: 5px 5px 5px black;
+			font-size: 60px;font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+			
 		}
-		h1{
-			display: inline;
+		h2{
+			color:chocolate;
+		}
+		h3{
+			color: chocolate;
 		}
 		.logo{
 			vertical-align: middle;
@@ -34,8 +45,21 @@
 			grid-template-columns: 38% 62%;
 			gap: 16px;
 		}
+		.Ingredients{
+			border: 2px solid #D97B0F;
+			padding: 8px;
+			display: inline-block;
+		}
+		.Instructions{
+			border: 2px solid #D97B0F;
+			padding: 8px;
+			display: inline-block;
+		}
 		li{
 			margin-bottom: 8px;
+		}
+		main, footer{
+			padding: 20px;
 		}
 	</style>
 </head>
@@ -46,14 +70,16 @@
 			<img src="Pasta&Co.jpeg" class="logo"/>
 <h1>Pasta &amp; Company</h1>
 		</header>
-		
+		 <img src="Creamy-Lemon-Chicken-Pasta-Banner.jpg" class="banner"/>
+
 		<main>
-		  <img src="Creamy-Lemon-Chicken-Pasta-Banner.jpg" class="banner"/>
-<h2>Creamy Lemon Chicken Pasta</h2>
+		 
+			<h2>Creamy Lemon Chicken Pasta</h2>
 			<p>Creamy Chicken Lemon Pasta is an easy, comforting meal that comes together quickly using rotisserie or leftover chicken. Tender chicken is tossed with pasta in a rich, creamy lemon sauce that&rsquo;s bright, flavorful, and perfectly balanced. It&rsquo; s a simple weeknight dinner that feels a little special without requiring much time or effort.</p>
 			
 			<div class="container">
 			<section>
+				<div class="Ingredients">
 				<h3>Ingredients</h3>
 				<ul>
 					<li>8 ounces uncooked pasta</li>
@@ -69,9 +95,11 @@
 					<li>Salt and pepper</li>
 					<li>Garnish: fresh parsley and extra parmesan</li>
 				</ul>
+			</div>
 			</section>
 			
 			<section>
+				<div class="Instructions">
 				<h3>Instructions</h3>
 				<ol>
 					<li>Salt and boil a pot of water for the pasta, cook al dente according to package directions.&nbsp; &nbsp;</li>
@@ -81,6 +109,7 @@
 					<li>Stir the parmesan cheese in and take the skillet off the heat. Season with salt and pepper to your liking.</li>
 					<li>Add the drained pasta to the skillet and toss until coated (add a tablespoon or two of the pasta water to the sauce prior to draining it). Serve immediately with more parmesan and a bit of chopped parsley if desired.</li>
 				</ol>
+				</div>
 			</section>
 			</div>
 		</main>
