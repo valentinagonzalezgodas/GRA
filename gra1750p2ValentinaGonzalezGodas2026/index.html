@@ -6,7 +6,10 @@
 	<style>
 		body{
 			margin: 0;
-			background-color: beige;
+			background-image: url("LemonBackground.jpg");
+				background-attachment: fixed;
+			
+			
 			
 		}
 		wrapper{
@@ -42,34 +45,43 @@
 		}
 		.container{
 			display: grid;
-			grid-template-columns: 38% 62%;
-			gap: 16px;
+			grid-template-columns: 40% 55%;
+			gap: 30px;
 		}
 		.Ingredients{
 			border: 2px solid #D97B0F;
-			padding: 8px;
+			padding: 8px 20px;
+			border-radius: 15px;
 			display: inline-block;
 		}
 		.Instructions{
 			border: 2px solid #D97B0F;
-			padding: 8px;
+			padding: 8px 20px;
+			border-radius: 15px;
 			display: inline-block;
 		}
 		li{
 			margin-bottom: 8px;
 		}
+		main{
+			background-color: beige;
+		}
 		main, footer{
 			padding: 20px;
 		}
+		footer{
+			background-color: darkgoldenrod;
+		}
+		
 	</style>
 </head>
+	
 
-<body>
 	<wrapper>
 		<header>
 			<img src="Pasta&Co.jpeg" class="logo"/>
 <h1>Pasta &amp; Company</h1>
-		</header>
+	  </header>
 		 <img src="Creamy-Lemon-Chicken-Pasta-Banner.jpg" class="banner"/>
 
 		<main>
@@ -118,6 +130,6 @@
 			<p>&copy; 2026, Valentina Gonzalez Godas.</p>
 <p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
 		</footer>
-	</wrapper>
+</wrapper>
 </body>
 </html>
