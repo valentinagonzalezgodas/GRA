@@ -6,6 +6,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap" rel="stylesheet">
 	<style>
 		body{
 			margin: 0px;
@@ -41,22 +44,26 @@
 		h1{
 		font-family: "Great Vibes", cursive;
 			color: aliceblue;
-			font-size: 45px;
-			
-			
-				
+			font-size: 50px;
 		}
 		h2{
 			color:aliceblue;
+			 font-family: "Cormorant Garamond", serif;
 		}
 		h3{
 			color: aliceblue;
+			font-family: "Cormorant Garamond", serif;
+			font-size: 22px;
 			}
 		h4{
 			color: aliceblue;
+			font-family: "Cormorant Garamond", serif;
+			font-size: 20px;
+			line-height: 30px;
 		}
 		p{
 			color: aliceblue;
+			font-family: "Cormorant Garamond", serif;
 		}
 		footer{
 			color: black;
@@ -67,25 +74,47 @@
 			bottom: 0;
 			
 		}
+		.Address{
+			font-size: 16px;
+			line-height: 0px;
+			
+		}
+		.TopRight{
+			position: absolute;
+			width: 150px;
+			right: 0px;
+			top: 0px;
+		}
+		.BottomLeft{
+			position: absolute;
+			width: 150px;
+			left: 0px;
+			bottom: 0px;
+		}
+		.RSVP{
+			line-height: 0px;
+		}
+	
 	</style>
 	
 </head>
 
 <body>
 	<wrapper>
+		<img src="Top Right.png" class="TopRight" />
+		<img src="Bottom Left .png" class="BottomLeft" />
 	<header>
 		<h2>You&rsquo;re Invited To</h2>
 		<h1>Rosario &amp; Ezequiel&rsquo;s Wedding</h1>
 		</header>
 		<main>
 	
-		<h3>Thursday, March 18, 2027.</h3>
-		<h3>At 9:30 in the Morning</h3>
+		<h3>Thursday, March 18, 2027 | 9:30 AM</h3>
 		<h3>Located at Logan&rsquo;s Place Venue</h3>
-		<h3>15255 SW 200th St, Miami, FL 33187</h3>
+		<h3 class="Address">15255 SW 200th St, Miami, FL 33187</h3>
 		<h4>Reception and Dancing to Follow</h4>
 		<p>Attire: Black Tie</p>
-		<p>RSVP before March 1st</p>
+		<p class="RSVP">RSVP before March 1st</p>
 	  </main>
 	</wrapper>
 	<footer>
