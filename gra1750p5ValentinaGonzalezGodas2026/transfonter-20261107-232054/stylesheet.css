@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rasmien';
+    src: url('Rasmien.woff2') format('woff2'),
+        url('Rasmien.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
