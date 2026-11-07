@@ -1,10 +1,18 @@
 <!doctype html>
-<html>
-<head>
+<html><head>
 <meta charset="UTF-8">
 <title>Maison Rouge | Valentina Gonzalez Godas, 2026</title>
 	<style>
-		body{
+		@font-face {
+    font-family: 'Zenitha Classic PERSONAL USE';
+    src: url('ZenithaClassicPERSONALUSE-Regular.woff2') format('woff2'),
+        url('ZenithaClassicPERSONALUSE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+	body{
 			margin: 0;
 			background-color: maroon;
 			
@@ -14,8 +22,9 @@
 			width: 500px;
 			display: block;
 			margin: auto;
-			background-color: rgba(237,221,222,0.75);
+			background-color: rgba(56,0,0,1.00);
 			padding: 20px;
+			
 			
 		}
 		header{
@@ -23,12 +32,34 @@
 			
 		}
 		h1{
-			width: ;
+			font-family: 'Zenitha Classic PERSONAL USE';
 			color: white;
+		}
+		h2{
+			color: white;
+		}
+		h3{
+			color: white;
+		}
+		li{
+			color: white;
+		}
+		footer{
+			padding: 20px;
+			background-color: black;
 		}
 		.Topwrapper{
 			background-color: transparent;
 		}
+		.Menu{
+			align-items: center; 
+		}
+		.Footnote{
+			color: white;
+			
+			
+		}
+		
 	</style>
 </head>
 
@@ -37,7 +68,7 @@
 	<header>
 		<wrapper class="Topwrapper">
 		<img src="logo.npg" class="Logo" />
-		<h1>Maison Rouge</h1>
+		<h1 class="Title">MAISON ROUGE</h1>
 		
 			
 		</wrapper>
@@ -50,18 +81,22 @@
 	<main>
 		<h2>Welcome In!</h2>
 		<img src="banner.jpeg" class="Banner" />
-		<h3>Menu</h3>
-		<ul>
-		<li>Menu Item<br />
-			<img src="menu1.jpeg" class="Menu" />
+		<h3>Cocktail Menu</h3>
+		
+		<li>Ruby Affair<br />
+			<p>Description</p>
+			<img src="Ruby-Affair-1.jpg" class="Menu" />
+			</li>
+		<li>Crimson Negroni<br />
+			<img src="Crimson-Negroni-2.jpg" class="Menu" />
 			</li>
 		<li>Menu Item<br />
-			<img src="menu2.jpeg" class="Menu" />
+			<img src="Cocktail 3.jpg" class="Menu" />
 			</li>
 		<li>Menu Item<br />
-			<img src="menu3.jpeg" class="Menu" />
+			<img src="Scarlet-Kiss-4.jpg"" class="Menu" />
 			</li>
-		</ul>
+		
 		<h3>Location</h3>
 		<!--
 		Copy-and-paste google map below
@@ -74,9 +109,10 @@
 		
 		
 		</main>
-	<footer>
-		<p>&copy; 2026, Valentina Gonzalez Godas. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
-		</footer>
+	
 	</wrapper>
+	<footer>
+		<p class="Footnote">&copy; 2026, Valentina Gonzalez Godas. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+		</footer>
 </body>
 </html>
